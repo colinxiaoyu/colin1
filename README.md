@@ -18,3 +18,4 @@ code-push app add androidApp android react-native
 
 Error:(36, 0) Cannot set the value of read-only property 'outputFile' for ApkVariantOutputImpl_Decorated{apkData=Main{type=MAIN, fullName=debug, filters=[]}} of type com.android.build.gradle.internal.api.ApkVariantOutputImpl.
 <a href="openFile:/Users/puxiang/Desktop/android-react-native/app/build.gradle">Open File</a>
+5. 项目说明，android嵌入react-native，可以嵌入多个react-native页面:由于只能注册一个react-native模块，通过android内application的InitState对象进入不同的react-native模块，提供android的bundle的热更新方案和预加载方案，但是需要完善
